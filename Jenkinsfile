@@ -49,6 +49,7 @@ pipeline {
             agent any
             steps {
                 echo 'multibranch'
+                echo 'hyperbranch'
             }
         }
     }
