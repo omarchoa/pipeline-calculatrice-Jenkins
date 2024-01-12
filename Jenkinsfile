@@ -45,10 +45,16 @@ pipeline {
                 }
             }
         }
-        stage('Branch') {
+        stage('Branch 1') {
             agent any
             steps {
-                echo 'multibranch'
+                echo 'branch 1'
+            }
+        }
+        stage('Branch 2') {
+            agent any
+            steps {
+                echo 'branch 2'
             }
         }
     }
